@@ -1,0 +1,51 @@
+body {
+	margin-bottom: 50px;
+}
+
+.box {
+	border: 1px red dotted;
+}
+
+.container {
+	max-width: 1000px;
+}
+
+.profile {
+	margin-right: 40px;
+}
+
+.profile aside p {
+	font-size: 12px;
+}
+
+.profile aside ul li {
+	float: left;
+	margin-right: 8px;
+}
+
+.profile aside ul {
+	list-style: none;
+	padding: 0px;
+}
+
+@media (max-width: 992px) {
+	.profile-image {
+		float: left;
+		margin-right: 15px;
+	}
+
+	.profile-content {
+		float: left;
+		margin-bottom: 10px;
+	}
+
+	.social-icons {
+		margin-left: 115px;
+	}
+}
+
+@media (min-width: 485px) and (max-width: 992px) {
+	.social-icons {
+		float: right;
+	}
+}

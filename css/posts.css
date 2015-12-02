@@ -1,0 +1,12 @@
+.row header h2 {
+	margin-bottom: 0px;
+}
+
+.row footer {
+	margin-bottom: 10px;
+	color: #000;
+}
+
+.lead {
+	margin-bottom: 10px;
+}
